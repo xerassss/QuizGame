@@ -16,6 +16,7 @@ namespace QuizGame
         List<int> usedQuestions = new List<int>();
         int correctAnswer;
         int questionNumber = 1;
+        int questionTaken = 0;
         int score;
         int percentage;
         int totalQuestions;
@@ -43,7 +44,7 @@ namespace QuizGame
         }
         private void question()
         {
-            if (questionNumber == totalQuestions)
+            if (questionTaken == totalQuestions)
             {
                 percentage = (int)Math.Round((double)(100 * score) / totalQuestions);
                 MessageBox.Show("Quiz Ended" + Environment.NewLine + "Your total percentage is " + percentage + "%" 
@@ -51,19 +52,20 @@ namespace QuizGame
 
                 score = 0;
                 questionNumber = 0;
-                return;
+                questionTaken = 0;
             }
 
             do
             {
                 questionNumber = randomQuestion.Next(1, 5); // 1 to 10 inclusive
-                if (questionNumber.Contains(usedQuestions)){
+                if (usedQuestions.Contains(questionNumber)){
                     questionNumber = randomQuestion.Next(1, 5);
                 }
             }
             while (usedQuestions.Contains(questionNumber));
 
             usedQuestions.Add(questionNumber);
+            questionTaken++;
 
             askQuestion(questionNumber);
         }
@@ -97,6 +99,7 @@ namespace QuizGame
                     case 3:
                         lblQuestion.Text = "Question 3";
 
+
                         btnA.Text = "True";
                         btnB.Text = "False";  
                         btnC.Text = "Cocoa";
@@ -105,14 +108,14 @@ namespace QuizGame
                     correctAnswer = 2;
 
                     break;
-                case 4:
-                    lblQuestion.Text = "Question 4";
+                    case 4:
+                        lblQuestion.Text = "Question 4";
 
-                    btnA.Text = "True";
-                    btnB.Text = "False";  
-                    btnC.Text = "Huh";
-                    btnD.Text = "LOL";
-
+                        btnA.Text = "True";
+                        btnB.Text = "False";  
+                        btnC.Text = "Huh";
+                        btnD.Text = "LOL";
+                     
                     correctAnswer = 2;
 
                     break;
