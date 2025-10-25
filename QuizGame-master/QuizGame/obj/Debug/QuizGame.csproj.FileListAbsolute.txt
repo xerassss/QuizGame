@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe.config
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\bin\Debug\QuizGame.pdb
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.diffWindow.resources
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmEasy.resources
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmHard.resources
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmMedium.resources
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmResult.resources
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
+C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
