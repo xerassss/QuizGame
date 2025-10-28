@@ -29,6 +29,8 @@ namespace QuizGame
             askQuestion(questionNumber);
             totalQuestions = 4;
         }
+        int M, S, TotalS = 0;
+
         private void ClickAnswerEvent(object sender, EventArgs e)
         {
             if (btnC.Visible == false)
@@ -40,7 +42,7 @@ namespace QuizGame
 
             }
             var senderObject = (Button)sender;
-            timerSec = 0;
+            S = 0;
 
             int buttonTag = Convert.ToInt32(senderObject.Tag);
             if (buttonTag == correctAnswer)
@@ -54,8 +56,11 @@ namespace QuizGame
             if (questionTaken == totalQuestions)
             {
                 percentage = (int)Math.Round((double)(100 * score) / totalQuestions);
-                UserResult.Score = score;
-                UserResult.Percentage = percentage;
+                UserResultNum.Score = score;
+                UserResultNum.Percentage = percentage;
+                UserResultNum.Time = TotalS;
+                StopQuizTimer();
+                StopTotalTimer();
                 frmResult frm = new frmResult();
                 DialogResult result = frm.ShowDialog();
                 this.Close();
@@ -77,68 +82,94 @@ namespace QuizGame
             }
         }
 
+        private void StopQuizTimer()
+        {
+            timer1.Stop();
+        }
+
+
+        private void StopTotalTimer()
+        {
+            timer2.Stop();
+        }
+
+        private void frmHard_Load(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+            timer2.Enabled = true;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            TotalS++;
+            lbAllTime.Text = TotalS.ToString();
+        }
+
         private void askQuestion(int qnum)
+        {
+            switch (qnum)
             {
-                switch(qnum)
-                {
-                    case 1:
-                        lblQuestions.Text = "Which countries were at war during Operation Barbarossa?";
+                case 1:
+                    lblQuestions.Text = "Which countries were at war during Operation Barbarossa?";
 
-                        btnA.Text = "Japan and Germany";
-                        btnB.Text = "United Kingdom and Germany";
-                        btnC.Text = "France and USSR";
-                        btnD.Text = "Germany and USSR";
+                    btnA.Text = "Japan and Germany";
+                    btnB.Text = "United Kingdom and Germany";
+                    btnC.Text = "France and USSR";
+                    btnD.Text = "Germany and USSR";
 
-                        correctAnswer = 4;
+                    correctAnswer = 4;
 
-                        break;
-                    case 2:
-                        lblQuestions.Text = "What empire built the Colosseum?";
+                    break;
+                case 2:
+                    lblQuestions.Text = "What empire built the Colosseum?";
 
-                        btnA.Text = "Greek Empire";
-                        btnB.Text = "Roman Empire";  
-                        btnC.Text = "Ottoman Empire";
-                        btnD.Text = "Persian Empire";
-
-                        correctAnswer = 2;
-
-                        break;
-                    case 3:
-                        lblQuestions.Text = "What phrase is often associated with the meme of Kermit the Frog sipping tea?";
-
-                        btnA.Text = "Its none of your business.";
-                        btnB.Text = "But thats none of my business.";
-                        btnC.Text = "I told you so.";
-                        btnD.Text = "None of the above.";
+                    btnA.Text = "Greek Empire";
+                    btnB.Text = "Roman Empire";
+                    btnC.Text = "Ottoman Empire";
+                    btnD.Text = "Persian Empire";
 
                     correctAnswer = 2;
 
                     break;
-                    case 4:
-                        lblQuestions.Text = "From which anime series does Ichigo Kurosaki being featured?";
-                    
-                        btnA.Text = "Bleach";
-                        btnB.Text = "Tokyo Ghoul";  
-                        btnC.Text = "One Piece";
-                        btnD.Text = "Naruto";
-                     
+                case 3:
+                    lblQuestions.Text = "What phrase is often associated with the meme of Kermit the Frog sipping tea?";
+
+                    btnA.Text = "Its none of your business.";
+                    btnB.Text = "But thats none of my business.";
+                    btnC.Text = "I told you so.";
+                    btnD.Text = "None of the above.";
+
+                    correctAnswer = 2;
+
+                    break;
+                case 4:
+                    lblQuestions.Text = "From which anime series does Ichigo Kurosaki being featured?";
+
+                    btnA.Text = "Bleach";
+                    btnB.Text = "Tokyo Ghoul";
+                    btnC.Text = "One Piece";
+                    btnD.Text = "Naruto";
+
                     correctAnswer = 1;
 
                     break;
-                
+
             }
         }
         private void timer1_Tick_1(object sender, EventArgs e)
         {
-            if (timerSec <= max_Time)
+            S++;
+            lbSec.Text = S.ToString();
+            if (S >= 15)
             {
-                timerSec++;
-            }
-            else
-            {
-                timerSec = 0;
                 question();
+                S = 0;
             }
+
+
+            lbSec.Text = S.ToString();
+            lbMin.Text = M.ToString();
+
         }
     }
 }

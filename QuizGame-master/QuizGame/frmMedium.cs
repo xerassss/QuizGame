@@ -21,9 +21,8 @@ namespace QuizGame
         int percentage;
         int totalQuestions;
         int timerSec = 0;
-        int max_Time = 5    ;
+        int max_Time = 5;
 
-        int seconds;
 
         public frmMedium()
         {
@@ -59,9 +58,9 @@ namespace QuizGame
             if (questionTaken == totalQuestions)
             {
                 percentage = (int)Math.Round((double)(100 * score) / totalQuestions);
-                UserResult.Score = score;
-                UserResult.Percentage = percentage;
-                UserResult.Time = TotalS;
+                UserResultNum.Score = score;
+                UserResultNum.Percentage = percentage;
+                UserResultNum.Time = TotalS;
                 StopQuizTimer();        
                 StopTotalTimer();
                 frmResult frm = new frmResult();
@@ -207,8 +206,6 @@ namespace QuizGame
         {
             TotalS++;
             lbAllTime.Text = TotalS.ToString();
-
-
         }
 
         private void label2_Click(object sender, EventArgs e)

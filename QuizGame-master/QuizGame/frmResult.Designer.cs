@@ -35,9 +35,9 @@
             this.lblPercentage = new System.Windows.Forms.Label();
             this.btnRetry = new System.Windows.Forms.Button();
             this.btnFinish = new System.Windows.Forms.Button();
-            this.lblName = new System.Windows.Forms.Label();
             this.lblTotalTime = new System.Windows.Forms.Label();
             this.lbElapsedTime = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNameTitle
@@ -70,11 +70,12 @@
             // lblScore
             // 
             this.lblScore.AutoSize = true;
-            this.lblScore.Location = new System.Drawing.Point(110, 52);
+            this.lblScore.Location = new System.Drawing.Point(63, 52);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(86, 24);
             this.lblScore.TabIndex = 3;
             this.lblScore.Text = "( Sample )";
+            this.lblScore.Click += new System.EventHandler(this.lblScore_Click);
             // 
             // lblPercentage
             // 
@@ -105,15 +106,6 @@
             this.btnFinish.UseVisualStyleBackColor = true;
             this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
             // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(110, 13);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(55, 24);
-            this.lblName.TabIndex = 7;
-            this.lblName.Text = "Yestin";
-            // 
             // lblTotalTime
             // 
             this.lblTotalTime.AutoSize = true;
@@ -134,14 +126,23 @@
             this.lbElapsedTime.Text = "Elapsed Time:";
             this.lbElapsedTime.Click += new System.EventHandler(this.label2_Click);
             // 
+            // lblName
+            // 
+            this.lblName.Location = new System.Drawing.Point(63, 13);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(262, 24);
+            this.lblName.TabIndex = 10;
+            this.lblName.Text = "\'";
+            this.lblName.Click += new System.EventHandler(this.lblName_Click_1);
+            // 
             // frmResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 325);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblTotalTime);
             this.Controls.Add(this.lbElapsedTime);
-            this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnFinish);
             this.Controls.Add(this.btnRetry);
             this.Controls.Add(this.lblPercentage);
@@ -168,8 +169,8 @@
         private System.Windows.Forms.Label lblPercentage;
         private System.Windows.Forms.Button btnRetry;
         private System.Windows.Forms.Button btnFinish;
-        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblTotalTime;
         private System.Windows.Forms.Label lbElapsedTime;
+        internal System.Windows.Forms.Label lblName;
     }
 }

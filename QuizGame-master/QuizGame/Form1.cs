@@ -109,6 +109,43 @@ namespace QuizGame
             leavedButton.BackColor = Color.Silver;
             leavedButton.ForeColor = Color.Black;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNameOfPlayer_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNameOfPlayer_TextChanged_1(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void txtNameOfPlayer_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            StringUserResult.Name = txtNameOfPlayer.Text;
+
+            try
+            {
+                // Check if the character is a digit
+                if (char.IsDigit(e.KeyChar))
+                {
+                    // Prevent the number from being entered
+                    e.Handled = true;
+                    throw new Exception("Numbers are not allowed in this field.");
+                }
+            }
+            catch (Exception ex)
+            {
+                // Show message box or handle it your own way
+                MessageBox.Show(ex.Message, "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 
 

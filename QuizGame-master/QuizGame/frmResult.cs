@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using static QuizGame.UserResult;
+using static QuizGame.UserResultNum;
+using static StringUserResult;
+
 
 namespace QuizGame
 {
@@ -8,20 +10,24 @@ namespace QuizGame
     public partial class frmResult : Form
     {
         private DelegateNumber DelScore, DelPercentage, DelTime;
+        private DelegateText DelName;
+
         public frmResult()          
         {
             InitializeComponent();
-            DelScore = new DelegateNumber(UserResult.getScore);
-            DelPercentage = new DelegateNumber(UserResult.getPercentage);
-            DelTime = new DelegateNumber(UserResult.getTime);
+            DelName = new DelegateText(StringUserResult.getName);
+            DelScore = new DelegateNumber(UserResultNum.getScore);
+            DelPercentage = new DelegateNumber(UserResultNum.getPercentage);
+            DelTime = new DelegateNumber(UserResultNum.getTime);
 
         }
 
         private void frmResult_Load(object sender, EventArgs e)
-        {   
-            lblScore.Text = DelScore(UserResult.Score).ToString();
-            lblPercentage.Text = DelPercentage(UserResult.Percentage).ToString() + "%";
-            lblTotalTime.Text = DelTime(UserResult.Time).ToString();
+        {
+            //lblName.Text = DelName(StringUserResult.Name).ToString();   
+            lblScore.Text = DelScore(UserResultNum.Score).ToString();
+            lblPercentage.Text = DelPercentage(UserResultNum.Percentage).ToString() + "%";
+            lblTotalTime.Text = DelTime(UserResultNum.Time).ToString();
 
         }
 
@@ -34,6 +40,21 @@ namespace QuizGame
         private void label1_Click(object sender, EventArgs e)
         {
                  
+        }
+
+        private void lblName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblName_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblScore_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label2_Click(object sender, EventArgs e)
