@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ilikemen;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,38 +26,68 @@ namespace QuizGame
             this.hrdbtn.MouseHover += new EventHandler(this.hrdbtn_MouseHover);
             this.hrdbtn.MouseLeave += new EventHandler(this.hrdbtn_MouseLeave);
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            using (frmEasy confirm = new frmEasy())
+            try
             {
-                var result = confirm.ShowDialog();
+                UserResult.Name = txtNameOfPlayer.Text;
+                if (UserResult.Name == "")
+                {
+                    throw new ArgumentNullException("Please Enter your name!");
+                }
+                using (frmEasy confirm = new frmEasy())
+                {
+                    var result = confirm.ShowDialog();
+                }
+
             }
+            catch (ArgumentNullException ex)
+            {
+                MessageBox.Show(ex.Message, "Null Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void mdmbtn_Click(object sender, EventArgs e)
         {
-            using (frmMedium confirm = new frmMedium())
+            try
             {
-                var result = confirm.ShowDialog();
+                UserResult.Name = txtNameOfPlayer.Text;
+                if (UserResult.Name == "")
+                {
+                    throw new ArgumentNullException("Please Enter your name!");
+                }
+                using (frmMedium confirm = new frmMedium())
+                {
+                    var result = confirm.ShowDialog();
+                }
+
             }
+            catch (ArgumentNullException ex)
+            {
+                MessageBox.Show(ex.Message, "Null Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            
         }
 
         private void hrdbtn_Click(object sender, EventArgs e)
         {
-            using (frmHard confirm = new frmHard())
+            try
             {
-                var result = confirm.ShowDialog();
+                UserResult.Name = txtNameOfPlayer.Text;
+                if (UserResult.Name == "")
+                {
+                    throw new ArgumentNullException("Please Enter your name!");
+                }
+                using (frmHard confirm = new frmHard())
+                {
+                    var result = confirm.ShowDialog();
+                }
+            }
+            catch (ArgumentNullException ex)
+            {
+                MessageBox.Show(ex.Message, "Null Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
      
         
@@ -108,6 +139,38 @@ namespace QuizGame
 
             leavedButton.BackColor = Color.Silver;
             leavedButton.ForeColor = Color.Black;
+        }
+        private void txtNameOfPlayer_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            UserResult.Name = txtNameOfPlayer.Text;
+
+            try
+            {
+                // Check if the character is a digit
+                if (char.IsDigit(e.KeyChar))
+                {
+                    // Prevent the number from being entered
+                    e.Handled = true;
+                    throw new Exception("Numbers are not allowed in this field.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void diffWindow_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            using(frmLogin confirm = new frmLogin())
+            {
+                var result = confirm.ShowDialog();
+            }
         }
     }
 
