@@ -35,26 +35,26 @@
             this.lblPercentage = new System.Windows.Forms.Label();
             this.btnRetry = new System.Windows.Forms.Button();
             this.btnFinish = new System.Windows.Forms.Button();
-            this.lblName = new System.Windows.Forms.Label();
             this.lblTotalTime = new System.Windows.Forms.Label();
             this.lbElapsedTime = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNameTitle
             // 
             this.lblNameTitle.AutoSize = true;
-            this.lblNameTitle.Location = new System.Drawing.Point(13, 13);
+            this.lblNameTitle.Location = new System.Drawing.Point(49, 13);
             this.lblNameTitle.Name = "lblNameTitle";
-            this.lblNameTitle.Size = new System.Drawing.Size(65, 24);
+            this.lblNameTitle.Size = new System.Drawing.Size(59, 20);
             this.lblNameTitle.TabIndex = 0;
             this.lblNameTitle.Text = "Name: ";
             // 
             // lblScoreTitle
             // 
             this.lblScoreTitle.AutoSize = true;
-            this.lblScoreTitle.Location = new System.Drawing.Point(13, 52);
+            this.lblScoreTitle.Location = new System.Drawing.Point(53, 52);
             this.lblScoreTitle.Name = "lblScoreTitle";
-            this.lblScoreTitle.Size = new System.Drawing.Size(57, 24);
+            this.lblScoreTitle.Size = new System.Drawing.Size(55, 20);
             this.lblScoreTitle.TabIndex = 1;
             this.lblScoreTitle.Text = "Score:";
             // 
@@ -63,25 +63,25 @@
             this.lblPercent.AutoSize = true;
             this.lblPercent.Location = new System.Drawing.Point(13, 89);
             this.lblPercent.Name = "lblPercent";
-            this.lblPercent.Size = new System.Drawing.Size(98, 24);
+            this.lblPercent.Size = new System.Drawing.Size(95, 20);
             this.lblPercent.TabIndex = 2;
             this.lblPercent.Text = "Percentage:";
             // 
             // lblScore
             // 
             this.lblScore.AutoSize = true;
-            this.lblScore.Location = new System.Drawing.Point(110, 52);
+            this.lblScore.Location = new System.Drawing.Point(126, 52);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(86, 24);
+            this.lblScore.Size = new System.Drawing.Size(81, 20);
             this.lblScore.TabIndex = 3;
             this.lblScore.Text = "( Sample )";
             // 
             // lblPercentage
             // 
             this.lblPercentage.AutoSize = true;
-            this.lblPercentage.Location = new System.Drawing.Point(110, 89);
+            this.lblPercentage.Location = new System.Drawing.Point(126, 89);
             this.lblPercentage.Name = "lblPercentage";
-            this.lblPercentage.Size = new System.Drawing.Size(86, 24);
+            this.lblPercentage.Size = new System.Drawing.Size(81, 20);
             this.lblPercentage.TabIndex = 4;
             this.lblPercentage.Text = "( Sample )";
             // 
@@ -105,43 +105,40 @@
             this.btnFinish.UseVisualStyleBackColor = true;
             this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
             // 
-            // lblName
-            // 
-            this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(110, 13);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(55, 24);
-            this.lblName.TabIndex = 7;
-            this.lblName.Text = "Yestin";
-            // 
             // lblTotalTime
             // 
             this.lblTotalTime.AutoSize = true;
-            this.lblTotalTime.Location = new System.Drawing.Point(137, 125);
+            this.lblTotalTime.Location = new System.Drawing.Point(126, 125);
             this.lblTotalTime.Name = "lblTotalTime";
-            this.lblTotalTime.Size = new System.Drawing.Size(86, 24);
+            this.lblTotalTime.Size = new System.Drawing.Size(81, 20);
             this.lblTotalTime.TabIndex = 9;
             this.lblTotalTime.Text = "( Sample )";
-            this.lblTotalTime.Click += new System.EventHandler(this.label1_Click);
             // 
             // lbElapsedTime
             // 
             this.lbElapsedTime.AutoSize = true;
-            this.lbElapsedTime.Location = new System.Drawing.Point(16, 125);
+            this.lbElapsedTime.Location = new System.Drawing.Point(13, 125);
             this.lbElapsedTime.Name = "lbElapsedTime";
-            this.lbElapsedTime.Size = new System.Drawing.Size(115, 24);
+            this.lbElapsedTime.Size = new System.Drawing.Size(95, 20);
             this.lbElapsedTime.TabIndex = 8;
-            this.lbElapsedTime.Text = "Elapsed Time:";
-            this.lbElapsedTime.Click += new System.EventHandler(this.label2_Click);
+            this.lbElapsedTime.Text = "Time Taken:";
+            // 
+            // lblName
+            // 
+            this.lblName.Location = new System.Drawing.Point(126, 13);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(195, 24);
+            this.lblName.TabIndex = 10;
+            this.lblName.Text = "( Sample )";
             // 
             // frmResult
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 325);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblTotalTime);
             this.Controls.Add(this.lbElapsedTime);
-            this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnFinish);
             this.Controls.Add(this.btnRetry);
             this.Controls.Add(this.lblPercentage);
@@ -149,7 +146,7 @@
             this.Controls.Add(this.lblPercent);
             this.Controls.Add(this.lblScoreTitle);
             this.Controls.Add(this.lblNameTitle);
-            this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmResult";
             this.Text = "frmResult";
@@ -168,8 +165,8 @@
         private System.Windows.Forms.Label lblPercentage;
         private System.Windows.Forms.Button btnRetry;
         private System.Windows.Forms.Button btnFinish;
-        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblTotalTime;
         private System.Windows.Forms.Label lbElapsedTime;
+        internal System.Windows.Forms.Label lblName;
     }
 }

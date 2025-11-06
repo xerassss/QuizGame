@@ -13,3 +13,84 @@ C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.G
 C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
 C:\Users\admin\source\repos\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe.config
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\bin\Debug\QuizGame.pdb
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe.config
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.diffWindow.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmEasy.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmHard.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmMedium.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmResult.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-3\QuizGame-xerassss-patch-3\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
+D:\Air\Group Proj\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe.config
+D:\Air\Group Proj\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe
+D:\Air\Group Proj\QuizGame-master\QuizGame\bin\Debug\QuizGame.pdb
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.diffWindow.resources
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmEasy.resources
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmHard.resources
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmMedium.resources
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmResult.resources
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+D:\Air\Group Proj\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe.config
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe.config
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\bin\Debug\QuizGame.pdb
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.diffWindow.resources
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmEasy.resources
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmHard.resources
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmMedium.resources
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmResult.resources
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+C:\Users\armor\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
+C:\Users\admin\source\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe.config
+C:\Users\admin\source\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe
+C:\Users\admin\source\QuizGame-master\QuizGame\bin\Debug\QuizGame.pdb
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.diffWindow.resources
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmEasy.resources
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmHard.resources
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmMedium.resources
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmResult.resources
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\ilikemen.frmLogin.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe.config
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\bin\Debug\QuizGame.exe
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\bin\Debug\QuizGame.pdb
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe.config
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.diffWindow.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\ilikemen.frmLogin.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmEasy.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmHard.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmMedium.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmResult.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
+C:\School\Event-Driven Programmin\QuizGame-xerassss-patch-5\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
+C:\Users\Acer\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+C:\Users\Acer\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe.config
+C:\Users\Acer\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.exe
+C:\Users\Acer\Downloads\QuizGame-master\QuizGame\obj\Debug\QuizGame.pdb
+C:\Users\admin\source\QuizGame-master\QuizGame\obj\Debug\QuizGame.frmLobby.resources
